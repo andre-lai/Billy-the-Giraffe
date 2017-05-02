@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Billy the Giraffe/charactersViewController.swift"
+            timestampString = "515133766.850308"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Billy the Giraffe/GameScene.swift"
+            timestampString = "515140324.200145"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.__deallocating_deinit"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.375152"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.init (size : __C.CGSize) -&gt; Billy_the_Giraffe.GameScene"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.379951"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.__allocating_init (size : __C.CGSize) -&gt; Billy_the_Giraffe.GameScene"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.38434"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.init () -&gt; Billy_the_Giraffe.GameScene"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.389028"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.__allocating_init () -&gt; Billy_the_Giraffe.GameScene"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.393466"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Billy_the_Giraffe.GameScene&gt;"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.397854"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Billy_the_Giraffe.GameScene.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Billy_the_Giraffe.GameScene&gt;"
+                  moduleName = "Billy the Giraffe"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/AndreLai/Dropbox/Berkeley/Sophomore%20&apos;16-&apos;17/Spring/CS%20198/finalproject/Billy%20the%20Giraffe/Billy%20the%20Giraffe/GameScene.swift"
+                  timestampString = "515140325.402295"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "20">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Billy the Giraffe/GameScene.swift"
+            timestampString = "515374619.453776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "451"
+            endingLineNumber = "451"
+            landmarkName = "iceCreamDidReachFloor(iceCream:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Billy the Giraffe/GameScene.swift"
+            timestampString = "515374619.453776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "615"
+            endingLineNumber = "615"
+            landmarkName = "appMovedToBackground()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Billy the Giraffe/GameScene.swift"
+            timestampString = "515374619.453776"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "379"
+            endingLineNumber = "379"
+            landmarkName = "scarfFrequency()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
