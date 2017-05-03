@@ -9,6 +9,8 @@
 import UIKit
 
 class StatsViewController: UIViewController {
+    
+    var exit = false
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +40,6 @@ class StatsViewController: UIViewController {
         //manage game instructions button
         helpImage.image = UIImage(named: "helpImage")
         helpImage.isHidden = true
-        exitHelpButton.isHidden = true
         
     }
     
@@ -59,19 +60,24 @@ class StatsViewController: UIViewController {
     @IBOutlet weak var highScore: UILabel!
     @IBOutlet weak var musicSwitch: UISwitch!
     @IBOutlet weak var helpImage: UIImageView!
-    @IBOutlet weak var exitHelpButton: UIButton!
     @IBOutlet weak var aboutTextView: UITextView!
+    @IBOutlet weak var instructionsButton: UIButton!
     
     @IBAction func userTappedMusicSwitch(_ sender: UISwitch) {
         UserDefaults.standard.set(sender.isOn, forKey: "Music")
     }
 
     @IBAction func userPressedGameInstructions(_ sender: UIButton) {
-        helpImage.isHidden = false
-        exitHelpButton.isHidden = false
-    }
-    @IBAction func userPressedExitHelpButton(_ sender: UIButton) {
-        helpImage.isHidden = true
-        exitHelpButton.isHidden = true
+        if (!exit) {
+            helpImage.isHidden = false
+            instructionsButton.setTitle("Close", for: .normal)
+            exit = true
+        } else if (exit) {
+            helpImage.isHidden = true
+            instructionsButton.setTitle("Game Instructions", for: .normal)
+            exit = false
+        }
+        
+        
     }
 }

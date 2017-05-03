@@ -530,6 +530,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         livesImage.physicsBody?.isDynamic = false
         addChild(livesImage)
         
+        //control game state and transition to gameOverScene
         if (lives <= 0) {
             let transition = SKTransition.flipHorizontal(withDuration: 0.5)
             let gameOverScene = GameOverScene(size: self.size, score: score, numScarves: numScarves)
@@ -611,6 +612,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             }
         }
     }
+    
+    //**** MANAGE GAME PAUSE AND AUTO-PAUSE ****//
     
     //app moved to the background (auto-pause)
     func appMovedToBackground() {

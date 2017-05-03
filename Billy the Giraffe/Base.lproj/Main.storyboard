@@ -230,19 +230,8 @@
                                     <action selector="userPressedGameInstructions:" destination="vzr-bT-0g0" eventType="touchUpInside" id="jDT-Q7-zxs"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CZj-h6-XEN">
-                                <rect key="frame" x="32" y="77" width="46" height="53"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="X">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </state>
-                                <connections>
-                                    <action selector="userPressedExitHelpButton:" destination="vzr-bT-0g0" eventType="touchUpInside" id="2Xo-MD-FIL"/>
-                                </connections>
-                            </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-yT-T09">
-                                <rect key="frame" x="31" y="77" width="313" height="494"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tnZ-yT-T09">
+                                <rect key="frame" x="31" y="77" width="313" height="502"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -255,10 +244,12 @@
                             <constraint firstAttribute="trailingMargin" secondItem="5TR-oW-JcT" secondAttribute="trailing" constant="29" id="59e-xm-c3t"/>
                             <constraint firstItem="5TR-oW-JcT" firstAttribute="centerX" secondItem="rt6-ZH-76d" secondAttribute="centerX" id="7CG-iW-WKg"/>
                             <constraint firstItem="5TR-oW-JcT" firstAttribute="leading" secondItem="rt6-ZH-76d" secondAttribute="leadingMargin" constant="28" id="99i-fm-Xtg"/>
+                            <constraint firstItem="tnZ-yT-T09" firstAttribute="leading" secondItem="rt6-ZH-76d" secondAttribute="leadingMargin" constant="15" id="ANs-ea-Qzp"/>
                             <constraint firstItem="hm2-8N-Ezf" firstAttribute="top" secondItem="vIp-2j-gc2" secondAttribute="bottom" constant="3" id="Aln-2R-6EN"/>
                             <constraint firstItem="gnC-k5-EeP" firstAttribute="centerX" secondItem="rt6-ZH-76d" secondAttribute="centerX" id="C97-DK-MAu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="tnZ-yT-T09" secondAttribute="trailing" constant="15" id="E6M-5H-sK0"/>
                             <constraint firstItem="vNa-AR-7JR" firstAttribute="top" secondItem="hm2-8N-Ezf" secondAttribute="bottom" constant="8" id="F0w-Xz-Ztt"/>
-                            <constraint firstItem="8pq-FE-jZG" firstAttribute="top" secondItem="tnZ-yT-T09" secondAttribute="bottom" constant="26" id="G8L-Go-JST"/>
+                            <constraint firstItem="8pq-FE-jZG" firstAttribute="top" secondItem="tnZ-yT-T09" secondAttribute="bottom" constant="18" id="G8L-Go-JST"/>
                             <constraint firstItem="8pq-FE-jZG" firstAttribute="centerX" secondItem="rt6-ZH-76d" secondAttribute="centerX" id="Gz9-Td-3vV"/>
                             <constraint firstItem="gnC-k5-EeP" firstAttribute="top" secondItem="DKg-4u-CMq" secondAttribute="bottom" constant="21" id="Hzd-0j-Etr"/>
                             <constraint firstItem="vNa-AR-7JR" firstAttribute="leading" secondItem="rt6-ZH-76d" secondAttribute="leadingMargin" constant="100.5" id="J71-FW-0XD"/>
@@ -296,9 +287,9 @@
                     <navigationItem key="navigationItem" id="Y7d-Ww-BXT"/>
                     <connections>
                         <outlet property="aboutTextView" destination="5TR-oW-JcT" id="x7h-Ty-QLf"/>
-                        <outlet property="exitHelpButton" destination="CZj-h6-XEN" id="aw2-vz-Zcc"/>
                         <outlet property="helpImage" destination="tnZ-yT-T09" id="qqr-Ei-lbc"/>
                         <outlet property="highScore" destination="MWn-j6-2Os" id="LiI-Pd-jNa"/>
+                        <outlet property="instructionsButton" destination="8pq-FE-jZG" id="Hr4-2H-nFn"/>
                         <outlet property="musicSwitch" destination="DKg-4u-CMq" id="mQ9-Ct-QVB"/>
                         <outlet property="numGames" destination="3WH-1V-oku" id="wHN-Bx-AB5"/>
                         <outlet property="numScarves" destination="6yb-nP-ybm" id="xxB-F7-7Ra"/>
