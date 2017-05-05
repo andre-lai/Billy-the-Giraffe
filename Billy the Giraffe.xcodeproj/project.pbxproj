@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3340D9CC1EA063F6009257B7 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3340D9CB1EA063F6009257B7 /* GameOverScene.swift */; };
+		336A89551EB9C33400D67503 /* GamePlayTheme.caf in Resources */ = {isa = PBXBuildFile; fileRef = 336A89541EB9BC9700D67503 /* GamePlayTheme.caf */; };
 		33D06EA91E8D7D1500DD8D6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33D06EA81E8D7D1500DD8D6E /* AppDelegate.swift */; };
 		33D06EAB1E8D7D1500DD8D6E /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 33D06EAA1E8D7D1500DD8D6E /* GameScene.sks */; };
 		33D06EAD1E8D7D1500DD8D6E /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 33D06EAC1E8D7D1500DD8D6E /* Actions.sks */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		3340D9CB1EA063F6009257B7 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		336A89541EB9BC9700D67503 /* GamePlayTheme.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GamePlayTheme.caf; sourceTree = "<group>"; };
 		33D06EA51E8D7D1500DD8D6E /* Billy the Giraffe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Billy the Giraffe.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33D06EA81E8D7D1500DD8D6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33D06EAA1E8D7D1500DD8D6E /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 		33E439821E8F6041000A11C4 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				336A89541EB9BC9700D67503 /* GamePlayTheme.caf */,
 				33E439831E8F6056000A11C4 /* MainTheme.caf */,
 			);
 			name = Sounds;
@@ -156,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				336A89551EB9C33400D67503 /* GamePlayTheme.caf in Resources */,
 				33E439841E8F65A6000A11C4 /* MainTheme.caf in Resources */,
 				33D06EB41E8D7D1500DD8D6E /* Main.storyboard in Resources */,
 				33D06EAB1E8D7D1500DD8D6E /* GameScene.sks in Resources */,

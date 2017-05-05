@@ -53,7 +53,6 @@ class MainMenuViewController: UIViewController {
         catch {
             print(error.localizedDescription)
         }
-        
     }
     
     override func viewDidAppear(_ animated: Bool) {

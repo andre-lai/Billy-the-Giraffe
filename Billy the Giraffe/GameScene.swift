@@ -80,6 +80,12 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     override func didMove(to view: SKView) {
         
         //*** basic game scene setup ***//
+        //add music
+        if (UserDefaults.standard.bool(forKey: "Music")) {
+            let backgroundMusic = SKAudioNode(fileNamed: "GamePlayTheme.caf")
+            backgroundMusic.autoplayLooped = true
+            addChild(backgroundMusic)
+        }
         
         //background color
         self.backgroundColor = SKColor(red: 100/255.0, green: 179/255.0,
@@ -88,11 +94,6 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //add physics
         physicsWorld.gravity = CGVector(dx: 0.0, dy: -1.0)
         physicsWorld.contactDelegate = self
-
-        //add music
-        //let backgroundMusic = SKAudioNode(fileNamed: "GamePlayTheme.caf")
-        //backgroundMusic.autoplayLooped = true
-        //addChild(backgroundMusic)
         
         //app state observer
         let notificationCenter = NotificationCenter.default
@@ -244,7 +245,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         // Position the scarf slightly off-screen along the top edge,
         // and along a random position along the X axis as calculated above
         let yPos = random(min: size.height * 0.5, max: size.height * 0.7)
-        cloud.position = CGPoint(x: -100, y: yPos)
+        cloud.position = CGPoint(x: 10, y: yPos)
         cloud.zPosition = -1
         
         //add background cloud

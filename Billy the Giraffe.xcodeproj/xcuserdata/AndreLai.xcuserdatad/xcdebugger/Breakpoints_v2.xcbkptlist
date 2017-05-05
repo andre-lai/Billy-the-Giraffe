@@ -149,11 +149,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Billy the Giraffe/GameScene.swift"
-            timestampString = "515452439.144648"
+            timestampString = "515490712.088782"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "452"
-            endingLineNumber = "452"
+            startingLineNumber = "456"
+            endingLineNumber = "456"
             landmarkName = "iceCreamDidReachFloor(iceCream:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -165,11 +165,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Billy the Giraffe/GameScene.swift"
-            timestampString = "515452439.144648"
+            timestampString = "515490712.088782"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "619"
-            endingLineNumber = "619"
+            startingLineNumber = "623"
+            endingLineNumber = "623"
             landmarkName = "appMovedToBackground()"
             landmarkType = "7">
          </BreakpointContent>
@@ -181,12 +181,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Billy the Giraffe/GameScene.swift"
-            timestampString = "515452439.144648"
+            timestampString = "515490712.088782"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "380"
-            endingLineNumber = "380"
-            landmarkName = "scarfFrequency()"
+            startingLineNumber = "384"
+            endingLineNumber = "384"
+            landmarkName = "GameScene"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Billy the Giraffe/GameScene.swift"
+            timestampString = "515490712.088782"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "87"
+            endingLineNumber = "87"
+            landmarkName = "didMove(to:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
