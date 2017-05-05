@@ -620,6 +620,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func appMovedToBackground() {
         print("app moved to background")
         if (UserDefaults.standard.bool(forKey: "Auto-Pause")) {
+            UserDefaults.standard.set(false, forKey: "Auto-Pause")
             pauseGame()
         }
     }

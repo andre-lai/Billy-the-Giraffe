@@ -165,11 +165,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Billy the Giraffe/GameScene.swift"
-            timestampString = "515490712.088782"
+            timestampString = "515655165.528515"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "623"
-            endingLineNumber = "623"
+            startingLineNumber = "624"
+            endingLineNumber = "624"
             landmarkName = "appMovedToBackground()"
             landmarkType = "7">
          </BreakpointContent>
